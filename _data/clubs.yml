@@ -1,0 +1,200 @@
+# Clubs
+airborn:
+  name: FC Airborn
+  plaats: Arnhem
+  web: http://www.fcairborn.nl
+  image: airborn.png
+  email: info@fcairborn.nl
+  offers: ultimate-jeugd ultimate-senioren
+  
+almerespinners:
+  name: Almere Spinners
+  email: info@almerespinners.nl 
+  web: http://www.almerespinners.nl
+  plaats: Almere
+  image: almerespinners.jpg
+  offers: ultimate-jeugd ultimate-senioren
+  telefoon: 06-54737191 (Patrice Karman)
+  
+auroraultimate:
+  name: Aurora Ultimate
+  email: lidewij.van.katwijk@stenden.com
+  plaats: Assen
+  image: auroraultimate.png
+  offers: ultimate-jeugd 
+  
+bfrisbee2s:
+  name: BFrisbee2's
+  email: info@frisbeenijmegen.nl
+  web: http://www.frisbeenijmegen.nl
+  plaats: Nijmegen
+  image: bfrisbee2s.gif
+  offers: ultimate-studenten
+  
+bluefingers:
+  name: Bluefingers Ultimate
+  email: info@bluefingersultimate.nl
+  web: http://www.bluefingersultimate.nl
+  plaats: Zwolle
+  image: bluefingers.jpg
+  telefoon: 06-23477406 (Laura Bults)
+  offers: ultimate-volwassenen
+
+crunch:
+  name: Crunch
+  email: info@crunch-ultimate.net
+  web: http://www.crunch-ultimate.net
+  plaats: Amsterdam
+  image: crunch.jpg
+  offers: ultimate-volwassenen ultimate-jeugd
+
+discdevilstwente:
+  name: Disc Devils Twente
+  email: info@discdevilstwente.nl
+  web: http://www.discdevilstwente.nl
+  plaats: Enschede
+  image: discdevilstwente.gif
+  offers: ultimate-volwassenen ultimate-jeugd
+  
+flyinghigh:
+  name: Flying High
+  email: info@flyinghightilburg.nl
+  web: http://www.flyinghightilburg.nl
+  plaats: Tilburg
+  image: flyinghigh.gif
+  offers: ultimate-volwassenen
+
+forceelektro:
+  name: Force Elektro
+  email: frisbee@force-elektro.nl
+  web: http://www.force-elektro.nl
+  plaats: Delft
+  image: force-elektro.gif
+  offers: ultimate-studenten
+
+forceelektro:
+  name: Force Elektro
+  email: frisbee@force-elektro.nl
+  web: http://www.force-elektro.nl
+  plaats: Delft
+  image: forceelektro.gif
+  offers: ultimate-studenten
+
+gronicaldizziness:
+  name: Gronical Dizziness
+  email: gronical@gronicaldizziness.nl
+  web: http://www.gronicaldizziness.nl
+  plaats: Groningen
+  image: gronicaldizziness.jpg
+  offers: ultimate-jeugd ultimate-volwassenen
+  
+mug:
+  name: Meer Ultimate Graag
+  email: mark.kattenberg@gmail.com
+  web: http://www.mug-haarlem.nl
+  plaats: Haarlem
+  image: mug.png
+  offers: ultimate-volwassenen
+
+nuts:
+  name: NUTS
+  email: info@ultimatenuts.nl
+  web: http://www.ultimatenuts.nl
+  plaats: Amsterdam
+  image: nuts.jpg
+  offers: ultimate-studenten
+
+panic:
+  name: PANIC Ultimate Leiden
+  email: panic.leiden@gmail.com
+  web: http://www.panic-ultimate.nl
+  plaats: Leiden
+  image: panic.gif
+  offers: ultimate-studenten
+  
+redlights:
+  name: Red Lights
+  email: tedbeute@upcmail.nl
+  plaats: Amsterdam
+  offers: ultimate-volwassenen
+  
+shotzz:
+    name: Shotzz
+    email: sandraoorschot@gmail.com
+    web: https://plus.google.com/u/0/102454805302400796843/posts
+    plaats: Leiden
+    image: shotzz.jpg
+    
+ultimaas:
+    name: UltiMaas
+    email: ultimatefrisbeemaastricht@gmail.com
+    web: http://www.ultimaas.nl
+    plaats: Maastricht
+    image: ultimaas.jpg
+    
+rdamnit:
+    name: Ultimate Rotterdam
+    email: info@ultimaterotterdam.nl
+    web:  http://www.ultimaterotterdam.nl
+    plaats: Rotterdam
+    image: rdamnit.jpg
+    
+ultimusprime:
+    name: Ultimus Prime 
+    email: info@ultimusprime.com
+    web: http://www.ultimusprime.com
+    plaats: Den Haag
+    image: ultimusprime.png
+    
+utka:
+    name: UTKA
+    telefoon: 06-53282418 (Coen Nengerman)
+    email: utkaultimate@gmail.com
+    web: http://www.utka-ultimate.nl
+    plaats: Utrecht
+    offers: ultimate-studenten
+    image: utka.jpg
+    
+ufo:
+    name: Utregse Frisbie Organisatie (UFO)
+    telefoon: 06 20285094
+    email: secretaris@ufofrisbee.nl
+    web: http://www.ufofrisbee.nl
+    plaats: Utrecht
+    image: ufo.gif
+    
+veenendaaltijgers:
+    name: Veenendaal Tijgers
+    email: info@frisbeetijgers.nl
+    web: http://www.frisbeetijgers.nl
+    plaats: Veenendaal
+    offers: ultimate-jeugd
+    image: veenendaaltijgers.gif
+    
+vertigo:
+    name: Vertigo
+    email: nestuur@vertigo-frisbee.nl
+    web: http://www.vertigo-frisbee.nl
+    plaats: Eindhoven
+    image: vertigo.png
+    
+waf:
+    name: Wageningse Frisbeevereniging WAF
+    email: waf@wur.nl
+    web: http://www.waf.wur.nl
+    plaats: Wageningen
+    image: waf.jpg
+    
+vellesanspeedies:
+    name: Vellesan Speedies
+    email: j.degroot@vellesancollege.nl
+    plaats: IJmuiden
+    
+    
+    
+  
+  
+
+  
+  
+  

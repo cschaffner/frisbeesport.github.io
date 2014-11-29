@@ -1,0 +1,28 @@
+---
+layout: landingpage
+categories: discgolf
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Disc Golf</h1>
+
+    {% assign highlight = site.data.highlights['discgolf'] %}
+    
+    {% if highlight.name != '' %}
+        <h2>Highlight {{ highlight.title }}</h2>   
+    
+    {% endif %}
+    
+ <h2>Quick links</h2>
+    <ul><li><a href="{{ site.baseurl }}/discgolf/nieuws/">Nieuws</a></li>
+        <li><a href="{{ site.baseurl }}/discgolf/nationaalteam/">Nationaal team</a></li>
+    <li><a href="{{ site.baseurl }}/discgolf/courses/">Courses</a></li>
+    <li><a href="{{ site.baseurl }}/discgolf/play/">Play Disc Golf</a></li>
+    <li><a href="{{ site.baseurl }}/discgolf/competitie/">Competitie</a></li>
+    </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
+

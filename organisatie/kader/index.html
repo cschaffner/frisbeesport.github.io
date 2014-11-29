@@ -1,0 +1,26 @@
+---
+layout: page
+categories: organisatie
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Kader</h1>
+
+      <ul class="post-list">
+    {% assign clubs = site.data.people %}
+
+    {% for club in clubs %}
+      <li>
+        <h2>
+            
+          <a class="post-link" href="{{ club[1].web }}">{{ club[1].name }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+    
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

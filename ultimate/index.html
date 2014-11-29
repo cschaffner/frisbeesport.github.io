@@ -1,0 +1,36 @@
+---
+layout: landingpage
+categories: ultimate
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Ultimate</h1>
+
+    <h2>Quick links</h2>
+    <ul><li><a href="{{ site.baseurl }}/ultimate/competitie/">Competitie</a></li>
+        <li><a href="{{ site.baseurl }}/ultimate/nationaleteams/">Nationale teams</a></li>
+    <li><a href="{{ site.baseurl }}/ultimate/nieuws/">Nieuws</a></li>
+    <li><a href="{{ site.baseurl }}/ultimate/jeugd/">Jeugd</a></li>
+        <li><a href="{{ site.baseurl }}/ultimate/play/">Play</a></li>
+        <li><a href="{{ site.baseurl }}/ultimate/community/">Community</a></li>
+    </ul>
+    <h2>Nieuws</h2>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      {% if post.categories contains 'ultimate' %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
+

@@ -1,0 +1,31 @@
+---
+layout: landingpage
+categories: organisatie
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Organisatie</h1>
+
+   <h2>Quick links</h2>
+    <ul><li><a href="{{ site.baseurl }}/organisatie/pers/">Pers</a></li>
+        <li><a href="{{ site.baseurl }}/organisatie/kader/">Kader</a></li>
+    <li><a href="{{ site.baseurl }}/organisatie/beleid/">Beleid</a></li>
+    <li><a href="{{ site.baseurl }}/organisatie/concepten/">Concepten</a></li>
+        <li><a href="{{ site.baseurl }}/organisatie/nieuws/">Nieuws</a></li>
+    </ul>
+    
+    <ul class="post-list">
+    {% assign people = site.data.people %}
+
+    {% for person in people %}
+      <li>
+          {% if person[1].image %}
+          <img src="{{ site.baseurl }}/assets/images/people/{{ person[1].image }}">
+          {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

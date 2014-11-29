@@ -1,0 +1,36 @@
+# Authors
+
+meerjarenbeleidsplan:
+  name: Meerjarenbeleidsplan 2014-2018
+  web: meerjarenbeleidsplan.pdf
+  categories: beleid
+
+jaarplan:
+  name: Jaarplan 2015
+  web: jaarplan2015.pdf
+  categories: beleid
+
+jaarverslag:
+  name: Jaarverslag 2014
+  web: jaarverslag2014.pdf
+  categories: beleid
+
+statuten:
+  name: Statuten
+  web: statuten.pdf
+  categories: reglementen
+
+algemeenreglement:
+  name: Algemeen reglement
+  web: algemeenreglement.pdf
+  categories: reglementen
+
+aftreedrooster:
+  name: Aftreedrooster
+  web: aftreedrooster.pdf
+  categories: kader
+  
+bestuursprofiel:
+  name: Bestuursprofiel
+  web: bestuursprofiel.pdf
+  categories: kader

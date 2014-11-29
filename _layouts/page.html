@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+<h4>Page layout</h4>
+    {% include header.html %}
+
+      {% if page.categories contains 'ultimate' %}
+      <h4>Ultimate page</h4>
+      {% endif %}
+      
+      {% if page.categories contains 'discgolf' %}
+      <h4>Disc Golf page</h4>
+      {% endif %}
+      {% if page.categories contains 'organisatie' %}
+      <h4>Organisatie page</h4>
+      {% endif %}
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

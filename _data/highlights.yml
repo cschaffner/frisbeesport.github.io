@@ -1,0 +1,20 @@
+# Site navigation links
+discgolf:
+    title: Disc Golf yeah!
+    description: ""
+    url: /discgolf/
+    
+ultimate:
+    title: Ultimate eyah
+    description: ""
+    url: /discgolf/
+    
+organisatie:
+    title: Organisatie yeah
+    description: ""
+    url: /discgolf/
+
+homepage:
+    title: Homepage ueah
+    description: ""
+    url: /ultimate/
