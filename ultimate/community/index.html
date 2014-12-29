@@ -1,26 +1,36 @@
 ---
 layout: page
-categories: ultimate
+categories: ultimate ultimate_community
+title: Spelersinformatie
 ---
 
-<div class="home">
+<section class="s-community">
+    <div class="container">
+        <div class="grid">
+    
+            <p class="ls-text">Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem.  </p>
+        
+            <ul class="post-list">
+    
+            {% for post in site.posts %}
+                
+                {% if post.categories contains 'ultimate_community' %}
 
-    <h1>Community</h1>
-  <ul class="post-list">
-    {% for post in site.posts %}
-      {% if post.categories contains 'ultimate_community' %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                    <li>
+                        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+                        <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+                    </li>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+                {% endif %}
 
-</div>
+            {% endfor %}
+                
+            </ul>
+        </div>      
+    </div>      
+</section>
+
+
+
 

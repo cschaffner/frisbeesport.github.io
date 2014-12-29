@@ -1,21 +1,25 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 
-  {% include head.html %}
+{% include fb_head.html %}
 
-  <body>
-    <h4>Homepage layout</h4>
-      
-    {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+<body id="page">
+    
+     
+    {% include browser-upgrade.html %}    
+    
+    {% include fb_header_homepage.html %}
 
-    {% include footer.html %}
+    {{ content }}
 
-  </body>
+    {% include fb_partners.html %}          
+    
+    {% include fb_footer.html %}          
+    {% include scripts.html %}          
 
+</body>
 </html>

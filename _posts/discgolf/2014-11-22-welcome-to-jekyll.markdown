@@ -3,7 +3,7 @@ layout: post
 title:  "Discgolf 2"
 date:   2014-11-22 21:32:04
 categories: discgolf
-author: Karel Discgolfer
+author: tedbeute
 ---
 Afgelopen zondag 9 november zijn meer dan 10.000 enthousiaste, sportieve bezoekers naar de Jaarbeurs in Utrecht gekomen om op de Andere Spelen kennis te maken met tien minder bekende sporten. Hoewel het erg druk was, werd de wachtrij bij Ultimate frisbee beperkt gehouden door onder de enthousiaste leiding van frisbee professionals per vijf minuten tien kinderen kennis te laten maken met deze explosieve sport.
 Behalve zelf spelen konden de vele bezoekers op de bomvolle tribune ook genieten van spectaculaire demonstratie-wedstrijden van ons Grut demonstratieteam en gaven de Grut-helden ook interviews aan de verslaggever van tv-programma Nickelodeon.

@@ -1,0 +1,44 @@
+ultimate:
+  - title: Nieuws 
+    url: /ultimate/nieuws/
+  - title: Competitie
+    url: /ultimate/competitie/
+  - title: Jeugd
+    url: /ultimate/jeugd/
+  - title: Speel ultimate
+    url: /ultimate/speel/
+  - title: Spelersinformatie
+    url: /ultimate/community/
+  - title: Nationale teams
+    url: /ultimate/nationaleteams/
+discgolf:
+  - title: Nieuws 
+    url: /ultimate/nieuws/
+  - title: Competitie
+    url: /discgolf/competitie/
+  - title: Nationaal team
+    url: /discgolf/nationaalteam/        
+  - title: Courses
+    url: /discgolf/courses/    
+  - title: Speel disc golf
+    url: /discgolf/speel/        
+organisatie:
+  - title: Nieuws 
+    url: /organisatie/nieuws/
+  - title: Kader
+    url: /organisatie/kader/
+  - title: Beleid 
+    url: /organisatie/beleid/    
+  - title: Pers
+    url: /organisatie/pers/
+  - title: Concepten
+    url: /organisatie/concepten/   
+  - title: Verenigingsinformatie
+    url: /organisatie/verenigingen/   
+  - title: Opleidingen
+    url: /organisatie/opleidingen/       
+algemeen:
+  - title: Overige sporten 
+    url: /algemeen/overigesporten
+  - title: Contact
+    url: /algemeen/contact/

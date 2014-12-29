@@ -1,0 +1,25 @@
+bestuur:
+  name: Bestuur
+  tagline: Dagelijks bestuur
+  leden: 
+    - id: josverhoeven
+      functie: Voorzitter
+      omschrijving: DiscGolf verantwoordelijk
+    - id: luziahelfer
+      functie: Vice-voorzitter
+      omschrijving: Ultimate verantwoordelijk
+    - id: imkevanasseldonk
+      functie: Secretaris
+jeugd:
+  name: Werkgroep jeugd
+  leden: 
+    - id: simonemuskee
+      functie: Voorzitter
+      omschrijving: DiscGolf verantwoordelijk
+promotie:
+  name: Werkgroep promotie
+  leden: 
+    - id: ronvankesteren
+      functie: Cityleague coordinator
+      omschrijving: Beheer cityleague concept
+    

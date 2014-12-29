@@ -1,13 +1,13 @@
 ---
 layout: page
 categories: organisatie
+title: Nieuws
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Nieuws</h1>
-
-   < <ul class="post-list">
+<section class="s-nieuws">
+    <div class="container"> <div class="grid">
+        
+     <ul class="post-list">
     {% for post in site.posts %}
       {% if post.categories contains 'organisatie' %}
       <li>
@@ -20,7 +20,8 @@ categories: organisatie
       {% endif %}
     {% endfor %}
   </ul>
+    </div>  </div>  
+</section>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+  
+  

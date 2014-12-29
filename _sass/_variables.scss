@@ -1,0 +1,53 @@
+// TYPOGRAPHY ================================================
+@import url(http://fonts.googleapis.com/css?family=Exo+2:600,300);
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two);
+
+$base-font: 'Exo 2', sans-serif;
+$heading-font: 'Exo 2'', sans-serif;
+$caption-font: 'Exo 2'', sans-serif;
+$code-font: 'source-code-pro', monospace;
+$alt-font: 'Shadows Into Light Two', serif;
+
+$doc-font-size: 16;
+$doc-line-height: 24;
+
+$border-radius: 3px;
+
+
+// set-up the body font-size / line-height
+body {
+  //margin-top: 0px + $doc-line-height;
+  font-size: 0px + $doc-font-size;  
+}
+
+
+// COLORS =====================================================
+$nfb-orange       : #ee7900;
+$nfb-orange-light : #f39d61;
+$nfb-orange-dark  : #cf6315;
+
+$body-color         : #fff;
+$text-color         : #222;
+$base-color         : #343434;    
+$comp-color         : spin($base-color, 180); 
+$border-color       : #ddd;
+$white              : #fff;
+$black              : #000;
+$accent-color       : $black;
+$link-color         : #222;
+
+$table-border-color           : $border-color;
+$table-border                 : 1px solid $table-border-color;
+$table-background             : $body-color;
+$table-header-color           : lighten($table-background, 10);
+$table-hover-color            : darken($table-background, 2);
+$table-stripe-color           : darken($table-background, 4);
+$table-stripe-color-hover     : darken($table-stripe-color, 5);
+
+
+// MEDIA QUERIES ==============================================
+$micro            : "only screen and (min-width: 30em)";
+$small            : "only screen and (min-width: 37.5em)";
+$medium           : "only screen and (min-width: 48em)";
+$large            : "only screen and (min-width: 62em)";
+$x-large          : "only screen and (min-width: 86.375em)";

@@ -1,0 +1,23 @@
+---
+layout: page
+categories: discgolf
+title: Speel Disc Golf
+---
+
+<div class="container"><div class="grid">
+
+  <ul class="post-list">
+      {% assign clubs = site.data.clubs %}
+
+    {% for club in clubs %}
+      <li>
+        <h2>
+            
+          <a class="post-link" href="{{ club[1].web }}">{{ club[1].name }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+
+</div></div>

@@ -1,13 +1,16 @@
 ---
-layout: landingpage
+layout: page
 categories: organisatie
-
+title: Pers
 ---
 
-<div class="home">
-
-    <h1>Persberichten</h1>
-  <ul class="post-list">
+<section class="s-community">
+    <div class="container">
+        <div class="grid">
+    <p class="ls-text">Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem.  </p>
+        
+      
+   <ul class="post-list">
     {% for post in site.posts %}
       {% if post.categories contains 'persbericht' %}
       <li>
@@ -20,8 +23,7 @@ categories: organisatie
       {% endif %}
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+         </div>   
+    </div>      
+</section>
 

@@ -1,26 +1,33 @@
 ---
 layout: post
-title:  "Organisatie bericht 1"
+title:  "NFB-contributies en -fees 2015"
 date:   2014-11-21 21:32:04
 categories: organisatie
 author: josverhoeven
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+De Bondsvergadering van 15 november jongstleden heeft de NFB-contributies en -fees voor 2015 vastgesteld. Belangrijkste wijziging is het afschaffen van de diverse playersfees bij de Ultimate competities voor volwassenen. Hiervoor in de plaats komt een Competitielicentie. Daarnaast wordt de contributie voortaan per half jaar aan de clubs doorberekend. Uiteraard blijft dit bedrag voor jeugd lager dan dat van senioren. 
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Hieronder vind je de nieuwe bedragen.
 
-Jekyll also offers powerful support for code snippets:
+## Basiscontributie per half jaar
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+- Jeugd (bij aanvang van de periode nog geen 18) : 2,50
+- Senior : 5,-
+- Kaderleden niet-spelend of trainend : 2,50
+- Vereniging : 10,-
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+## Toeslagen per half jaar
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+- Ultimate Competitielicentie voor volwassenen : 7,50
+
+## Teamfees & playersfees
+
+- Ultimate Outdoor Jeugdcompetitie U20 ( = 4 speeldagen ) : 165,-
+- Ultimate Indoor Jeugdcompetitie U20 ( = 4 speeldagen ) : 165,-
+- Ultimate Playersfee U13 ( per speeldag ) : 5,-
+- Ultimate Outdoor-competitie Open & Dames ( = 4 speeldagen ) : 200,-
+- Ultimate Outdoor Mixed-competitie ( = 3 speeldagen ) : 150,-
+- Ultimate Indoor-competitie Open & Dames* ( = 4 speeldagen ) : 250,-
+- Discgolf Playersfee ( per competitie ) : 25,-
+ 
+* met ingang van indoorseizoen 2014-2015

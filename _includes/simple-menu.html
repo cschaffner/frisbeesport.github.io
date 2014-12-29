@@ -1,0 +1,33 @@
+{% if page.categories contains 'ultimate' %}
+    {% assign menu = site.data.menu.ultimate %}
+    {% assign title = 'Ultimate' %}
+{% elsif  page.categories contains 'discgolf' %}
+    {% assign menu = site.data.menu.discgolf %}
+    {% assign title = 'Disc Golf' %}
+{% elsif  page.categories contains 'organisatie' %}
+    {% assign menu = site.data.menu.organisatie %}
+    {% assign title = 'Organisatie' %}
+{% endif %}
+
+<div class="container">
+    <div class="grid">
+        
+        <div class="menu-wrapper">
+            <div class="menu-form">
+                <button class="menu-close-btn"><i class="fa fa-times-circle fa-2x"></i></button>
+                
+                <h1>{{ title }}</h1>
+                
+                <ul class="menu-items">
+                    
+                    {% for item in menu %}
+                
+                        <li><a class="menu-item" href="{{ item.url }}">{{ item.title }}</a></li>
+
+                    {% endfor %}
+                    
+                </ul>
+            </div>
+        </div>
+    </div>    
+</div>

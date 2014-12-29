@@ -1,0 +1,35 @@
+open:
+  name: Open 
+  tagline: Voor de open toernooien
+  missie: het team gaat voor WK
+  image: 
+  spelers: 
+    - naam: Adje
+      nummer: 12
+    - naam: Bert
+      nummer: 1
+    - naam: Voorzitter
+      nummer: 2
+    - naam: Voorzitter
+      nummer: 3
+  entourage:
+    - naam: Piet
+      functie: Coach
+openu18:
+  name: Open onder 18
+  tagline: Voor de open toernooien
+  missie: het team gaat voor WK
+  image: 
+  spelers: 
+    - naam: Adje
+      nummer: 12
+    - naam: Bert
+      nummer: 1
+    - naam: Voorzitter
+      nummer: 2
+    - naam: Voorzitter
+      nummer: 3
+  entourage:
+    - naam: Piet
+      functie: Coach
+            

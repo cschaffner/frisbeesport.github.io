@@ -1,0 +1,28 @@
+---
+layout: page
+categories: ultimate
+title: Speel Ultimate
+---
+<section class="s-verenigingen">
+    <div class="container">
+        <div class="grid">
+
+            <ul class="post-list">
+                {% assign clubs = site.data.clubs %}
+
+                {% for club in clubs %}
+
+                    <li>
+                        <h2><a id="{{ club[0] }}" class="post-link" href="{{ club[1].web }}">{{ club[1].name }}</a></h2>
+
+                        {% if club[1].image %}
+                            <img src="{{ site.baseurl }}/images/clubs/{{ club[1].image }}">
+                        {% endif %}
+                    </li>
+
+                {% endfor %}
+            </ul>
+
+        </div>
+    </div>
+</section>

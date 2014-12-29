@@ -124,6 +124,7 @@ shotzz:
     web: https://plus.google.com/u/0/102454805302400796843/posts
     plaats: Leiden
     image: shotzz.jpg
+    offers: ultimate-jeugd
     
 ultimaas:
     name: UltiMaas
@@ -131,6 +132,7 @@ ultimaas:
     web: http://www.ultimaas.nl
     plaats: Maastricht
     image: ultimaas.jpg
+    offers: ultimate-studenten
     
 rdamnit:
     name: Ultimate Rotterdam
@@ -138,6 +140,7 @@ rdamnit:
     web:  http://www.ultimaterotterdam.nl
     plaats: Rotterdam
     image: rdamnit.jpg
+    offers: ultimate-volwassenen
     
 ultimusprime:
     name: Ultimus Prime 
@@ -145,6 +148,7 @@ ultimusprime:
     web: http://www.ultimusprime.com
     plaats: Den Haag
     image: ultimusprime.png
+    offers: ultimate-volwassenen
     
 utka:
     name: UTKA
@@ -162,6 +166,7 @@ ufo:
     web: http://www.ufofrisbee.nl
     plaats: Utrecht
     image: ufo.gif
+    offers: ultimate-volwassenen ultimate-jeugd   
     
 veenendaaltijgers:
     name: Veenendaal Tijgers
@@ -177,6 +182,7 @@ vertigo:
     web: http://www.vertigo-frisbee.nl
     plaats: Eindhoven
     image: vertigo.png
+    offers: ultimate-studenten
     
 waf:
     name: Wageningse Frisbeevereniging WAF
@@ -184,11 +190,13 @@ waf:
     web: http://www.waf.wur.nl
     plaats: Wageningen
     image: waf.jpg
+    offers: ultimate-studenten
     
 vellesanspeedies:
     name: Vellesan Speedies
     email: j.degroot@vellesancollege.nl
     plaats: IJmuiden
+    offers: ultimate-studenten
     
     
     

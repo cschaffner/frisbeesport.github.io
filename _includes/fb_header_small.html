@@ -1,0 +1,32 @@
+<section class="s-intro-small">
+    {% include simple-search.html %}
+    {% include simple-menu.html %}
+    
+    <div class="container">
+        <div class="grid">
+            <div class="hero-content">
+               
+                <div class="site-logo-topleft">
+                    <a href="{{ site.url }}"  rel="home" title="{{ site.title }}">
+                        <img src="{{ site.url }}/images/logo_nfb_2kdark24.png"  alt="{{ site.title }} logo" class="animated bounceInDown">   
+                    </a>
+                </div> 
+            
+                <ul class="top-icons">
+                    <li class="top-icon top-icon-menu domenu"></li>
+                    <li class="top-icon top-icon-search dosearch"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container">
+    <div class="grid">
+        <h1>{{ page.title }}</h1>
+    </div>
+</div>
+
+{% if page.image.credit %}<p class="image-credit">Foto door <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>{% endif %}
+
+<div class="menu-screen"></div>

@@ -1,0 +1,26 @@
+<section class="s-intro" style="background-image: url('{{ site.url }}/images/heroes/{{ page.image.feature }}');">
+    <div class="hero-wash"></div>
+
+    <div class="container">
+        <div class="grid">
+     
+            <div class="hero-content">
+                <div class="site-logo-center">
+                    <a href="{{ site.url }}"  rel="home" title="{{ site.title }}">
+                        <img src="{{ site.url }}/images/logo_nfb_2kdark8.png"  alt="{{ site.title }} logo" class="animated bounceInDown">                
+                    </a>
+                </div> 
+ 
+                <p>{{ page.excerpt }}</p>
+
+                <ul class="ghost-buttons">
+                    {% for button in page.ghost-buttons %}
+                        <li><a class="btn-ghost" href="{{ button.url }}" alt="{{ button.alt }}">{{ button.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% if page.image.credit %}<p class="image-credit">Foto door <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>{% endif %}

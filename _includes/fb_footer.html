@@ -1,0 +1,90 @@
+<section class="s-footer">
+    <div class="container">
+        <div class="grid">
+        <div class="footer-logo">
+            <h3>Nederlandse Frisbee Bond</h3>
+            
+            <img src="/images/logo_nfb.png" class="footer-logo-image">  
+        </div>
+
+        <div class="footer-menu">
+
+            <h3>Ultimate</h3>
+            <ul>
+                
+                {% assign menu = site.data.menu.ultimate %}
+
+                {% for item in menu %}
+                
+                <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+
+                {% endfor %}
+                
+            </ul>
+
+        </div>
+        
+        <div class="footer-menu">
+
+            <h3>Disc Golf</h3>
+            <ul>
+                
+                {% assign menu = site.data.menu.discgolf %}
+
+                {% for item in menu %}
+                
+                <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+
+                {% endfor %}
+                
+            </ul>
+
+        </div>
+
+        <div class="footer-menu">
+
+            <h3>Organisatie</h3>
+            <ul>
+                
+                {% assign menu = site.data.menu.organisatie %}
+
+                {% for item in menu %}
+                
+                <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+
+                {% endfor %}
+                
+            </ul>
+
+        </div>
+        
+         <div class="footer-menu">
+
+            <h3>Algemeen</h3>
+            <ul>
+                
+                {% assign menu = site.data.menu.algemeen %}
+
+                {% for item in menu %}
+                
+                <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+
+                {% endfor %}
+                
+            </ul>
+
+        </div>
+        </div>
+    </div>
+</section>
+
+<section class="s-footer-bottom">
+    <footer>
+        <div class="container">
+            <div class="grid">
+                <div class="title">{{ site.title }}: {{ site.description }}</div>
+                <div class="copyright">Copyright Ron van Kesteren</div>
+            </div>
+        </div>
+    </footer>
+</section>

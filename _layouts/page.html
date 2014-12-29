@@ -1,30 +1,38 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 
-  {% include head.html %}
+{% include fb_head.html %}
 
-  <body>
-<h4>Page layout</h4>
-    {% include header.html %}
+<body id="page">
 
-      {% if page.categories contains 'ultimate' %}
-      <h4>Ultimate page</h4>
-      {% endif %}
+    {% include browser-upgrade.html %}    
+
+    <article>
+        
+    {% if page.image.feature %}
+        {% include fb_header_big.html %}
+    {% else %}
+        {% include fb_header_small.html %}
+    {% endif %}
       
-      {% if page.categories contains 'discgolf' %}
-      <h4>Disc Golf page</h4>
-      {% endif %}
-      {% if page.categories contains 'organisatie' %}
-      <h4>Organisatie page</h4>
-      {% endif %}
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+    {{ content }}
+    
+    </article>
 
-    {% include footer.html %}
+    {% include fb_partners.html %}     
+    
+    
 
-  </body>
 
+    {% include fb_newsletter.html %}
+    
+  
+
+    {% include fb_footer.html %}          
+    {% include scripts.html %}          
+
+</body>
 </html>
