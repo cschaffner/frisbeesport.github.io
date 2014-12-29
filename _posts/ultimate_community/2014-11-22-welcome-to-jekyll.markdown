@@ -1,9 +1,11 @@
 ---
-layout: post
-title:  "Andere spelen groot succes voor Ultimate"
-date:   2014-11-22 21:32:04
 categories: ultimate_community
+layout: post
+title: Andere spelen groot succes voor Ultimate
+date: {}
+published: false
 ---
+
 Afgelopen zondag 10 november zijn meer dan 10.000 enthousiaste, sportieve bezoekers naar de Jaarbeurs in Utrecht gekomen om op de Andere Spelen kennis te maken met tien minder bekende sporten. Hoewel het erg druk was, werd de wachtrij bij Ultimate frisbee beperkt gehouden door onder de enthousiaste leiding van frisbee professionals per vijf minuten tien kinderen kennis te laten maken met deze explosieve sport.
 Behalve zelf spelen konden de vele bezoekers op de bomvolle tribune ook genieten van spectaculaire demonstratie-wedstrijden van ons Grut demonstratieteam en gaven de Grut-helden ook interviews aan de verslaggever van tv-programma Nickelodeon.
 De grote belangstelling en het enthousiasme van de deelnemende kinderen is door onze Ultimate-huisfotografe Martine Bootsma uitgebreid op de gevoelige plaat vastgelegd. Dit zijn de links naar de foto’s : 9 tot 10 uur
