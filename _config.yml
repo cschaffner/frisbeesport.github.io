@@ -19,9 +19,11 @@ permalink:   /:categories/:title/
 sass:
   sass_dir: _sass
   style: compressed
+  
 gems:
   - jekyll-sitemap
     
+exclude: ["log", "tmp", "package.json", "README.md", "vendor"]
 
 sitemap:
     file: "/sitemap.xml"
