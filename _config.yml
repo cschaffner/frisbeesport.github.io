@@ -35,7 +35,7 @@ sitemap:
     priority_name: "priority"
     
 prose:
-  rooturl: '_posts'
+  rooturl: '/''
   siteurl: 'http://frisbeesport.github.io/'
   relativeLinks: 'http://frisbeesport.github.io/links.jsonp'
   media: 'images'
@@ -44,6 +44,7 @@ prose:
     - _config.yml
     - /_layouts
     - /_includes
+    - /_sass
   metadata:
     _posts/ultimate:
       - name: "layout"
