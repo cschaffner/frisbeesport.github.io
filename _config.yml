@@ -35,7 +35,7 @@ sitemap:
     priority_name: "priority"
     
 prose:
-  rooturl: '/''
+  rooturl: '/'
   siteurl: 'http://frisbeesport.github.io/'
   relativeLinks: 'http://frisbeesport.github.io/links.jsonp'
   media: 'images'
