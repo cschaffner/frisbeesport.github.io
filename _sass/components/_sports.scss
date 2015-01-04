@@ -1,0 +1,12 @@
+
+// Sports
+// --------------------------------------------------
+.c-sport {
+    @include media($medium) {
+        @include span-columns(6);
+    }
+}
+
+.c-sport img {
+    width: 40%;
+}

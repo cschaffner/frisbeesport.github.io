@@ -1,7 +1,7 @@
 ---
 layout: homepage
 image:
-    feature: hildo.jpg
+    feature: hero-nfb.jpg
     wash-opacity: 0.3
 title: Frisbeesport.nl
 excerpt: "It’s how something works; how it looks; what it communicates; how it makes you feel. It’s the complex sum of multiple moving parts, and is core to business success & growth. Great design is a difference maker that makes your business stand tall in the marketplace – and it's exactly what we deliver."
@@ -23,26 +23,30 @@ ghost-buttons:
                 <img src="images/sport_ultimate.jpg">
                 <h3>Ultimate</h3>
                 <p>Some description of how cool ultimate is.</p>
-                <a href="/ultimate">Check this out!</a>
+                <a class="arrow-link" href="/ultimate">Check this out!</a>
             </div>
 
             <div class="c-sport">
                 <img src="images/sport_discgolf.jpg">
                 <h3>Disc Golf</h3>
                 <p>Some description of how great Disc Golf is.</p>
-                <a href="/discgolf">Check this out!</a>
+                <a class="arrow-link" href="/discgolf">Check this out!</a>
             </div>
 
         </div>
     </div>
 </section>
 
-<section class="s-philosophy">
+<section class="s-philosophy obliqueCut">
+    {% include fb_section_top.html %}
+    
     <div class="container">
         <div class="grid">
             <h2>Sport gaat om sport.</h2>
             <p>Duis sit amet sem lacinia, mattis nunc at, tristique odio. Nunc auctor varius interdum. Morbi tempus ligula ut purus dignissim laoreet. Curabitur eu nulla ac est congue dictum at a ante. Nulla condimentum sed nibh a imperdiet. Pellentesque dolor quam, aliquam faucibus venenatis nec, efficitur non urna.</p>
-            <a href="/organisatie">De organisatie!</a>
+            <a class="arrow-link" href="/organisatie">De organisatie!</a>
         </div>
     </div>
+    
+    {% include fb_section_bottom.html %}
 </section>

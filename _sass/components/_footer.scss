@@ -1,0 +1,84 @@
+
+// Footer menu
+// --------------------------------------------------
+
+
+.footer-logo {
+    @include span-columns(12);
+    @include media($large) {
+        @include span-columns(4);
+    }
+}
+
+.footer-logo-image {
+    margin-top: 20px;
+}
+
+.footer-menu {
+     @include media($medium) {
+        @include span-columns(3);
+    }                                                                                                                                                                                                                                                                                                                                                                               @include media($large) {
+        @include span-columns(2);
+    }
+}
+
+.s-footer h3 {
+    @include font-size(16);
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 0.2rem;
+    margin-top: 0;
+    padding: 0;
+}
+
+.footer-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+.footer-menu ul li {
+    margin: 0;
+}
+
+.footer-menu ul li a {
+    @include font-size(16);
+    font-weight: lighter;
+    color: #ffffff;
+}
+
+.footer-menu ul li a:hover {
+    @include font-size(16);
+    font-weight: lighter;
+    color: $nfb-orange-light;
+}
+
+
+// Footer foot
+// --------------------------------------------------
+
+
+.s-footer-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #aaaaaa; 
+}
+
+.s-footer-bottom .title {
+    
+    @include media($large) {
+        @include span-columns(9);
+    }
+}
+
+.s-footer-bottom .copyright {
+    
+    @include media($large) {
+        float: right;
+    } 
+}

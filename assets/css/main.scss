@@ -13,19 +13,37 @@ sitemap: false
 
 // Partials
 @import "variables";
+
 @import "vendor/bourbon/bourbon";
-@import "grid-settings";
-@import "vendor/neat/neat";
-@import "mixins";
-
-@import "reset";
-
-@import "site";
-@import "navigation";
-@import "elements";
-@import "forms";
-@import "layout";
 @import "vendor/font-awesome/font-awesome";
 @import "vendor/magnific-popup/magnific-popup";
-@import "simple-search";
-@import "simple-menu";
+
+@import "generic/mixins";
+@import "generic/reset";
+
+@import "base/grid-settings";
+@import "vendor/neat/neat";
+
+@import "base/elements";
+@import "base/forms";
+@import "base/site";
+
+@import "components/layout";
+@import "components/sections";
+@import "components/section-separator";
+@import "components/header";
+@import "components/footer";
+
+@import "components/navigation";
+@import "components/simple-search";
+@import "components/simple-menu";
+
+@import "components/browser-upgrade";
+@import "components/sports";
+@import "components/post";
+@import "components/postlist";
+@import "components/partners";
+@import "components/arrow-link";
+
+@import "components/social-icons";
+@import "components/social-share";

@@ -1,0 +1,21 @@
+
+.arrow-link {
+    font-weight: bold;
+    color: #000;
+}
+.arrow-link::before {
+    content: "\f178";
+    font-family: "FontAwesome";
+    margin-right: 15px;
+    color: $nfb-orange;
+    transition: all 0.5s ease;
+}
+
+.arrow-link:visited {
+    color: #000;
+}
+
+.arrow-link:hover::before {
+    margin-right: 7px;
+    margin-left: 8px;
+}

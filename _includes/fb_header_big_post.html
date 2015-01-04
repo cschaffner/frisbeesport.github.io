@@ -7,13 +7,13 @@
     <div class="container">
         <div class="grid">
             <div class="hero-content">
-           
+            
                 <div class="site-logo-topleft">
                     <a href="{{ site.url }}"  rel="home" title="{{ site.title }}">
                         <img src="{{ site.url }}/images/logo_nfb_2kdark24.png"  alt="{{ site.title }} logo" class="animated bounceInDown">                
                     </a>
                 </div> 
-            
+            <div class="hero-post">
                 <ul class="top-icons">
                     <li class="top-icon top-icon-menu domenu"></li>
                     <li class="top-icon top-icon-search dosearch"></li>
@@ -28,7 +28,7 @@
                         <li><a class="btn-ghost" href="{{ button.url }}" alt="{{ button.alt }}">{{ button.title }}</a></li>
                     {% endfor %}
                 </ul>
-                
+             </div>   
             </div>
         </div>
     </div>{% include fb_section_bottom.html fill="#ffffff" %}

@@ -1,0 +1,56 @@
+
+.obliqueCut  {
+    padding-top: 70px;
+    padding-bottom: 130px;
+    position: relative;
+    
+     @include media($medium) {
+		padding-top: 120px;
+        padding-bottom: 180px;
+	}
+}
+
+.separated-bottom  {
+    padding-bottom: 60px;
+    position: relative;
+    
+     @include media($medium) {
+        padding-bottom: 130px;
+	}
+}
+
+.separated-top  {
+    padding-top: 70px;
+    position: relative;
+    
+     @include media($medium) {
+		padding-top: 120px;
+	}
+}
+
+.separator-narrow {
+    height: 30px;
+    
+    @include media($medium) {
+		display: none;
+	}
+}
+
+.separator-wide {
+	display: none;
+    height: 110px;
+    @include media($medium) {
+		display: block;
+	}
+}
+
+svg {
+    position: absolute;
+    display: block;
+    width: 100%;
+    bottom: -1px;
+}
+ 
+svg path {
+     fill: #fff;
+}

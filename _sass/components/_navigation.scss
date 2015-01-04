@@ -1,0 +1,64 @@
+// search button in navigation
+.no-js .dosearch {
+  display: none;
+}
+
+.top-icons {
+    position: fixed;
+    right: 35px;
+    top: 35px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-icon {
+    float:right;
+    z-index: 109;
+    margin-left: 15px;
+    
+    width: 40px;
+    height: 40px;
+    font-size: 38px;
+    cursor: pointer;
+    
+    color: #fff;
+    
+    background-color: $nfb-orange;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+}
+
+.top-icon:hover {
+    background-color: $nfb-orange-light;
+}
+
+.top-icon-ultimate {
+    background-color: $nfb-blue;
+}
+
+.top-icon-ultimate:hover {
+    background-color: $nfb-blue-light;
+}
+
+.top-icon-discgolf {
+    background-color: $nfb-green;
+}
+
+.top-icon-discgolf:hover {
+    background-color: $nfb-green-light;
+}
+
+.top-icon-menu {
+    background-image: url('/images/icon_menu_trigger.png');   
+}
+
+.top-icon-search {
+    background-image: url('/images/icon_search_trigger.png');     
+}
+
+.top-icon-close {
+    background-image: url('/images/icon_close_trigger.png');     
+}
+

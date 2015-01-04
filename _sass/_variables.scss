@@ -7,6 +7,8 @@ $heading-font: 'Exo 2', sans-serif;
 $caption-font: 'Exo 2', sans-serif;
 $code-font: 'source-code-pro', monospace;
 $alt-font: 'Shadows Into Light Two', serif;
+$icon-font: 'Exo 2', sans-serif;
+
 
 $doc-font-size: 16;
 $doc-line-height: 24;
@@ -26,6 +28,14 @@ $nfb-orange       : #ee7900;
 $nfb-orange-light : #f39d61;
 $nfb-orange-dark  : #cf6315;
 
+$nfb-green       : #ee7900;
+$nfb-green-light : #f39d61;
+$nfb-green-dark  : #cf6315;
+
+$nfb-blue       : #ee7900;
+$nfb-blue-light : #f39d61;
+$nfb-blue-dark  : #cf6315;
+
 $body-color         : #fff;
 $text-color         : #222;
 $base-color         : #343434;    
@@ -34,7 +44,8 @@ $border-color       : #ddd;
 $white              : #fff;
 $black              : #000;
 $accent-color       : $black;
-$link-color         : #222;
+$link-color         : #ee7900;
+$link-color-hover   : #f39d61;
 
 $table-border-color           : $border-color;
 $table-border                 : 1px solid $table-border-color;

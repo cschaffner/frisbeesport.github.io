@@ -1,0 +1,65 @@
+
+// Sections
+// --------------------------------------------------
+
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+section h2 {
+    padding-top: 0px;
+    margin-top: 0px
+}
+.s-partners {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.s-sports {
+    
+}
+.s-newsletter {
+    background: url('/images/heroes/hero-newsletter.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+.s-philosophy {
+    background-color: $nfb-orange;
+}
+
+.s-landing {
+}
+
+.s-footer {
+    background-color: #222222; 
+    color: #ffffff;
+}
+ 
+
+// Scroll
+// --------------------------------------------------
+
+.scroll {
+    height: 60px;
+    margin-top: -30px;
+    width: 100%;
+    background: url(/images/scroll.jpg) no-repeat bottom center scroll;
+    z-index: 100;
+    position: relative;
+}
+.scroll a {
+    text-align: center;
+    display: block;
+    bottom: 0;
+    position: absolute;
+    left: 48%;
+    color: transparent;
+    width: 60px;
+    height: 40px;
+}
+

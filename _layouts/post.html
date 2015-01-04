@@ -11,7 +11,7 @@
     <article>
       
     {% if page.image.feature %}
-        {% include fb_header_big.html %}
+        {% include fb_header_big_post.html %}
     {% else %}
         {% include fb_header_small.html %}
     {% endif %}
@@ -42,7 +42,9 @@
             </span>
         {% endif %}
         
-        {% if page.share %}{% include social-share.html %}{% endif %}
+        {% if page.share %}
+            {% include social-share.html %}
+        {% endif %}
        
       </footer>
     
