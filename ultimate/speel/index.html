@@ -3,17 +3,56 @@ layout: page
 categories: ultimate
 title: Speel Ultimate
 ---
+
+<section class="s-landing">
+    <div class="container">
+        <div class="grid">
+            <h2>Toernooien</h2>
+            <p>
+Ultimate is een toernooisport bij uitstek. Naast Cityleague zijn er allerlei toernooien in binnen- en buitenland: indoor, outdoor of op het strand, vaak in gemengde teams. Meestal is het een weekend met een toernooifeest op zaterdag. Er wordt overnacht in een sporthal of in tentjes bij de velden. Daarnaast is er een landelijke indoor, een outdoor en een mixed outdoor-competitie.                 
+            </p>
+            <p>
+                ot slot zijn er allerlei toernooien in binnen- en buitenland : Indoor, Outdoor en op het strand. Voor Open teams, voor Dames en voor Mixed ploegen. Er zijn ook toernooien speciaal gericht op studenten. Meespelen ? Neem contact op met een frisbeevereniging in jouw buurt.
+            </p>
+            <p>
+            Twee keer per jaar wordt een Right To Play toernooi georganiseerd. Dit is speciaal bedoeld voor spelers met minder dan anderhalf jaar ervaring. Ieder team heeft minstens één ervaren speler als player-coach. Geef je op bij WAF voor het outdoor toernooi eind september of bij BFrisBee2's voor het indoor toernooi in maart.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="s-landing">
+    <div class="container">
+        <div class="grid">
+            <h2>Cityleague</h2>
+            <p>
+De Cityleague is een lokale competitie speciaal gericht op spelers die kennis willen maken met Ultimate. In een paar avonden leer je de beginselen van de sport en speel je een korte competitie tegen andere teams.</p>
+            <p>In verschillende steden in Nederland wordt een Cityleague georganiseerd. Kijk of er ook in jouw stad een is en schrijf je in via deze website. Maak een vliegende start met deze snelle, spectaculaire gezellige frisbeesport!
+            </p>
+            <p>
+                De Cityleague is een korte Ultimate-competitie op een doordeweekse avond, meestal een paar weken in het voorjaar. De deelnemende ploegen zijn vriendengroepen, families, bedrijven of een groepje collega's, waarvan dan één of sommige speler(s) lid van de organiserende frisbeeclub is(zijn). Het niveau van de spelers is dus zeer gevarieerd, maar daardoor is de Cityleague voor velen de ideale manier om in aanraking te komen met Ultimate, want de ervaren spelers kunnen het spel tactisch en regeltechnisch een beetje stroomlijnen. In 2014 zijn er Cityleagues in de volgende steden : Amsterdam, Delft, Den Haag, Enschede, Groningen, Haarlem, Maastricht. Nijmegen, Utrecht en Zwolle.
+            </p>
+            <p>
+            Verspreid over het land worden geregeld Cityleagues georganiseerd. Dit zijn informele competities in de avonduren. Jong en oud, beginners en gevorderden komen bij elkaar puur voor de fun en om Ultimate te leren. Iedereen is welkom ! Meer info kun je vinden op www.cityleague.nl of bij de vereniging in jouw buurt.
+            </p>
+            <a class="arrow-link" href="http://www.cityleague.nl">Ga naar de Cityleague website</a>               
+        </div>
+    </div>
+</section>
+
 <section class="s-verenigingen">
     <div class="container">
         <div class="grid">
-
+            <h2>Verenigingen</h2>
+            Verenigingen
+Door het hele land zijn er verenigingen voor Ultimate. Je bent welkom om eens langs te komen op een training. Er zijn clubs in Almere, Arnhem, Amsterdam, Delft, Den Haag, Eindhoven, Enschede, Groningen, Haarlem, IJmuiden, Leiden, Leusden, Maastricht, Nijmegen, Rotterdam, Tilburg, Utrecht, Wageningen, Veenendaal en Zwolle. Zoek op de balk onder Ultimate voor contact-gegevens van de bestaande verenigingen.
             <ul class="post-list">
                 {% assign clubs = site.data.clubs %}
 
                 {% for club in clubs %}
 
                     <li>
-                        <h2><a id="{{ club[0] }}" class="post-link" href="{{ club[1].web }}">{{ club[1].name }}</a></h2>
+                        <h3><a id="{{ club[0] }}" class="post-link" href="{{ club[1].web }}">{{ club[1].name }}</a></h3>
 
                         {% if club[1].image %}
                             <img src="{{ site.baseurl }}/images/clubs/{{ club[1].image }}">
@@ -25,4 +64,8 @@ title: Speel Ultimate
 
         </div>
     </div>
+</section>
+<section>
+    Zelf een frisbeevereniging oprichten
+Je kunt natuurlijk ook zelf met een aantal vrienden een frisbeevereniging oprichten. De NFB wil je hier graag bij ondersteunen. Neem contact op met de projectleider van de NFB voor meer informatie.
 </section>

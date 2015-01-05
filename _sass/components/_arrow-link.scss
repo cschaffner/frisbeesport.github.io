@@ -19,3 +19,24 @@
     margin-right: 7px;
     margin-left: 8px;
 }
+
+.pdf-link {
+    font-weight: bold;
+    color: #000;
+}
+.pdf-link::before {
+    content: "\f1c1";
+    font-family: "FontAwesome";
+    margin-right: 15px;
+    color: $nfb-orange;
+    transition: all 0.5s ease;
+}
+
+.pdf-link:visited {
+    color: #000;
+}
+
+.pdf-link:hover::before {
+    margin-right: 7px;
+    margin-left: 8px;
+}

@@ -39,6 +39,8 @@ organisatie:
     url: /organisatie/opleidingen/       
 algemeen:
   - title: Overige sporten 
-    url: /algemeen/overigesporten
+    url: /algemeen/overigesporten/
+  - title: Records
+    url: /algemeen/records/
   - title: Contact
     url: /algemeen/contact/

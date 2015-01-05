@@ -13,6 +13,17 @@ sitemap: false
 		} ,
 	{% endfor %}
     
+    {% for page in site.pages %}
+		{
+		  "title"      : "{{ page.title | escape }}",
+		  
+		  "url"        : "{{ site.url }}{{ page.url }}",
+          "tags"       : "",
+		  "date"       : "",
+		  "shortdate"  : ""
+		} ,
+	{% endfor %}
+    
    {% for club in site.data.clubs %}
 		{
 		  "title"      : "{{ club[1].name | escape }} ({{ club[1].plaats }})",

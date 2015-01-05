@@ -4,7 +4,7 @@ email: info@frisbeesport.nl
 description: > # this means to ignore newlines until "baseurl:"
   De NFB is de sportbond voor de frisbeesport in Nederland.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://frisbeesport.github.io/" # the base hostname & protocol for your site
+url: "http://localhost:4000/" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 logo: Logo-v1.png
