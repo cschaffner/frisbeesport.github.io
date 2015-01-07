@@ -22,11 +22,20 @@
     }
 }
 
-.s-footer h3 {
+.s-footer h3  {
     @include font-size(16);
     font-weight: bold;
     color: #ffffff;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.1rem;
+    margin-top: 0;
+    padding: 0;
+}
+
+.s-footer h3 a {
+    @include font-size(16);
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 0.1rem;
     margin-top: 0;
     padding: 0;
 }
@@ -55,6 +64,10 @@
 .footer-menu ul li a:hover {
     @include font-size(16);
     font-weight: lighter;
+    color: $nfb-orange-light;
+}
+
+.footer-menu h3 a:hover { 
     color: $nfb-orange-light;
 }
 

@@ -12,6 +12,33 @@
     padding: 0px;
 }
 
+.top-icons-left {
+    position: fixed;
+    left: 35px;
+    top: 35px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-icon-left {
+    float:left;
+    z-index: 109;
+    margin-right: 15px;
+    
+    width: 40px;
+    height: 40px;
+    font-size: 38px;
+    cursor: pointer;
+    
+    color: #fff;
+    
+    background-color: $nfb-orange;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+}
+
 .top-icon {
     float:right;
     z-index: 109;
@@ -59,6 +86,10 @@
 }
 
 .top-icon-close {
+    background-image: url('/images/icon_close_trigger.png');     
+}
+
+.top-icon-home {
     background-image: url('/images/icon_close_trigger.png');     
 }
 

@@ -1,3 +1,11 @@
+{% if page.categories contains 'ultimate' %}
+    {% assign sitesection = 'section-ultimate' %}
+{% elsif  page.categories contains 'discgolf' %}
+    {% assign sitesection = 'section-discgolf' %}
+{% elsif page.categories contains 'organisatie' %}
+    {% assign sitesection = 'section-organisatie' %}
+{% endif %}
+
 <!doctype html>
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
@@ -6,7 +14,7 @@
 
 {% include fb_head.html %}
 
-<body id="page">
+<body class="{{ sitesection }}">
 
     
     {% include browser-upgrade.html %}  

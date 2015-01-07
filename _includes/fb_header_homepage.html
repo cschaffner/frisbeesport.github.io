@@ -1,13 +1,39 @@
+{% if sitesection == 'section-ultimate' %}
+    {% assign logoimage = 'logo_ultimate.png' %}
+{% elsif sitesection == 'section-discgolf' %}
+    {% assign logoimage = 'logo_discgolf.png' %}
+{% else %}
+    {% assign logoimage = 'logo_nfb_2kdark24.png' %}
+{% endif %}
+
 <section class="s-intro separated-bottom" style="background-image: url('{{ site.url }}/images/heroes/{{ page.image.feature }}');">
     <div class="hero-wash"></div>
 
+      {% include simple-search.html %}
+    {% include simple-menu.html %}
+
+    
     <div class="container">
         <div class="grid">
      
             <div class="hero-content">
+                
+                {% if  page.categories  != 'homepage' %}
+                
+           
+                
+                <ul class="top-icons">
+                    
+                    <li class="top-icon top-icon-menu domenu"></li>
+                    <li class="top-icon top-icon-search dosearch"></li>
+                    <a href="{{ site.url }}"><li class="top-icon top-icon-home"></li></a>
+                </ul>
+                
+                {% endif %}
+                
                 <div class="site-logo-center">
                     <a href="{{ site.url }}"  rel="home" title="{{ site.title }}">
-                        <img src="{{ site.url }}/images/logo_nfb_2kdark24.png"  alt="{{ site.title }} logo" class="animated bounceInDown">                
+                        <img src="{{ site.url }}/images/{{ logoimage }}"  alt="{{ site.title }} logo" class="animated bounceInDown">                
                     </a>
                 </div> 
  
@@ -23,5 +49,7 @@
     </div>{% include fb_section_bottom.html fill="#ffffff" %}
   
 </section>
-
 {% if page.image.credit %}<p class="image-credit">Foto door <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>{% endif %}
+
+
+<div class="menu-screen"></div>

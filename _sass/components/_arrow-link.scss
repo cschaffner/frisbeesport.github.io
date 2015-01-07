@@ -20,6 +20,14 @@
     margin-left: 8px;
 }
 
+.section-inverse .arrow-link::before {
+    color: #fff;
+}
+
+.section-inverse .pdf-link::before {
+    color: #fff;
+}
+
 .pdf-link {
     font-weight: bold;
     color: #000;

@@ -1,3 +1,14 @@
+{% if sitesection == 'section-ultimate' %}
+    {% assign logoimage = 'logo_ultimate.png' %}
+    {% assign logourl = 'ultimate' %}
+{% elsif sitesection == 'section-discgolf' %}
+    {% assign logoimage = 'logo_discgolf.png' %}
+    {% assign logourl = 'discgolf' %}
+{% else %}
+    {% assign logoimage = 'logo_nfb_2kdark24.png' %}
+    {% assign logourl = 'organisatie' %}
+{% endif %}
+
 <section class="s-intro separated-bottom" style="background-image: url('{{ site.url }}/images/heroes/{{ page.image.feature }}');">
     <div class="hero-wash"></div>
    
@@ -9,8 +20,8 @@
             <div class="hero-content">
            
                 <div class="site-logo-topleft">
-                    <a href="{{ site.url }}"  rel="home" title="{{ site.title }}">
-                        <img src="{{ site.url }}/images/logo_nfb_2kdark24.png"  alt="{{ site.title }} logo" class="animated bounceInDown">                
+                    <a href="{{ site.url }}{{ logourl }}"  rel="home" title="{{ site.title }}">
+                        <img src="{{ site.url }}/images/{{ logoimage }}"  alt="{{ site.title }} logo" class="animated bounceInDown">                
                     </a>
                 </div> 
             

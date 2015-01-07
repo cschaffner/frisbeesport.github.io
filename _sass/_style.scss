@@ -1,0 +1,136 @@
+.section-discgolf p a { 
+	color: $nfb-green; 
+	&:visited { 
+		color: $nfb-green; 
+	}
+    
+	&:hover { 
+		color: $nfb-green-light;
+	}
+    
+	&:focus { 
+		color: $nfb-green-light;
+	}
+}
+
+.section-ultimate p a { 
+	color: $nfb-blue; 
+	&:visited { 
+		color: $nfb-blue; 
+	}
+    
+	&:hover { 
+		color: $nfb-blue-light;
+	}
+    
+	&:focus { 
+		color: $nfb-blue-light;
+	}
+}
+
+
+.section-ultimate .top-icon {
+   background-color: $nfb-blue;
+}
+
+.section-ultimate .top-icon:hover {
+   background-color: $nfb-blue-light;
+}
+
+.section-discgolf .top-icon {
+   background-color: $nfb-green;
+}
+
+.section-discgolf .top-icon:hover {
+   background-color: $nfb-green-light;
+}
+
+
+.section-ultimate .top-icon-left {
+   background-color: $nfb-blue;
+}
+
+.section-ultimate .top-icon-left:hover {
+   background-color: $nfb-blue-light;
+}
+
+.section-discgolf .top-icon-left {
+   background-color: $nfb-green;
+}
+
+.section-discgolf .top-icon-left:hover {
+   background-color: $nfb-green-light;
+}
+
+.section-ultimate .arrow-link::before {
+    color: $nfb-blue;
+}
+
+.section-discgolf .arrow-link::before {
+    color: $nfb-green;
+}
+
+.section-discgolf .top-icon:hover {
+   background-color: $nfb-green-light;
+}
+
+.section-ultimate .pdf-link::before {
+    color: $nfb-blue;
+}
+
+.section-discgolf .pdf-link::before {
+    color: $nfb-green;
+}
+
+.section-discgolf .section-inverse {
+    background-color: $nfb-green;
+    color: #fff;
+}
+
+.section-ultimate .section-inverse {
+    background-color: $nfb-blue;
+    color: #fff;
+}
+
+.section-ultimate .entry-content li a:hover {
+    color: $nfb-blue;
+}
+
+.section-ultimate .entry-content li a:visited {
+    color: $nfb-blue;
+}
+
+
+.section-discgolf .entry-content li a {
+    color: $nfb-green;
+}
+
+.section-discgolf .entry-content li a:visited {
+    color: $nfb-green;
+}
+
+.section-ultimate .entry-content li a:hover {
+    color: $nfb-blue-light;
+}
+
+.section-discgolf .entry-content li a:hover {
+    color: $nfb-green-light;
+}
+
+
+.section-discgolf .footer-menu ul li a:hover {
+    color: $nfb-green-light;
+}
+
+.section-ultimate .footer-menu ul li a:hover {
+    color: $nfb-blue-light;
+}
+.section-discgolf .footer-menu h3 a:hover { 
+    color: $nfb-green-light;
+}
+
+
+.section-ultimate .footer-menu h3 a:hover { 
+    color: $nfb-blue-light;
+}
+

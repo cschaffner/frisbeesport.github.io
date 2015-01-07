@@ -3,9 +3,15 @@
      {% include fb_section_top.html %}
     
      
-    
     <div class="container">
-        <h2>Nieuwsbrief</h2>
+        {% if sitesection == 'section-ultimate' %}
+            <h2>Ultimate nieuwsbrief</h2>
+        {% elsif sitesection == 'section-discgolf' %}
+            <h2>Disc Golf nieuwsbrief</h2>
+        {% else %}
+            <h2>Organisatie nieuwsbrief</h2>
+        {% endif %}
+        
         <div class="subtitle">Blijf op de hoogte van alles.</div>
         <p>Dit is een heel goed idee. Er staat heel veel nieuws in. Verschijnt niet vaak. En we beloven je niet te spammen.</p>
         <a href="" class="button"></a>
