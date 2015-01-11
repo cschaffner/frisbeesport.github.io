@@ -7,19 +7,7 @@ title: Speel Disc Golf
 <div class="container"><div class="grid">
 Disc Golf is de frisbeevariant van golf. In plaats van met een balletje en golfclub wordt dit spel gespeeld met een frisbee. De speler moet een bepaald traject in zo min mogelijk worpen afleggen. Heel veel termen die bij gewoon golf worden gebruikt, komen ook bij Disc Golf voor. Bijvoorbeeld tee, hole, hole in one, putt, approach, birdie, par, drive.
 Disc Golf wordt vaak gespeeld in een park waar hindernissen zoals bomen en waterpartijen omzeild moeten worden. Het is een recreatiespel in de 'vrije' natuur, geschikt voor alle leeftijdscategorieën, ieders vaardigheidsniveau en voor ieders portemonnee.
-  <ul class="post-list">
-      {% assign clubs = site.data.clubs %}
-
-    {% for club in clubs %}
-      <li>
-        <h2>
-            
-          <a class="post-link" href="{{ club[1].web }}">{{ club[1].name }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
+  
 
 </div></div>
 
@@ -35,3 +23,28 @@ Natuurlijk kun je ook in je eigen park terecht. Dan kies je gewoon een boom of l
 Een parcours aanleggen in jouw gemeente
 Als je een vast parcours zou willen aanleggen in jouw gemeente, dan kan de Nederlandse Frisbee Bond helpen. De investering moet gedragen worden door jouw gemeente of de eigenaar van het park. De Nederlandse Frisbee Bond heeft hierover kennis. Er zijn verschillende leveranciers in Nederland die Disc Golf doelen (Poleholes) verkopen. Bij hen kun je ook terecht voor informatie.
 </section>
+
+
+<section class="s-verenigingen cards">
+    <div class="container">
+        <div class="grid">
+            <h2>Verenigingen</h2>
+            <p>
+            
+                </p>
+        </div>
+        <div class="grid">
+            
+                {% assign clubs = site.data.clubs %}
+
+                {% for club in clubs %}
+                    {% if club[1].offers contains "discgolf" %}
+                        {% include card-vereniging.html param=club %}
+                    {% endif %}
+                {% endfor %}
+            
+
+        </div>
+    </div>
+</section>
+<section>

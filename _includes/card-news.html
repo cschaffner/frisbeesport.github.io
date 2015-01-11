@@ -1,0 +1,23 @@
+  <div class="nieuws card">           
+                                           
+      {% assign post = include.param %}
+                                           
+     {% if post.image %}
+                            <a href="{{ post.url | prepend: site.baseurl }}"><img class="card--image" src="/images/heroes/{{ post.image.feature }}"></a>
+                        {% endif %}
+                        <div class="card--inside">
+                        <div class ="card--header">
+                            
+                            
+                        <h3 class="card--title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+                        </div>
+                                      
+                        <p class="card--sidecontent">
+                            
+                           
+                        </p>
+                             
+                       
+                        </div>
+                    </div>                                      
+                                       

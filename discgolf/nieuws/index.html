@@ -5,21 +5,18 @@ title: Nieuws
 ---
 
 
-<div class="container"><div class="grid">
+<section class="s-nieuws">
+    <div class="container"> 
+        <div class="grid">
+        
+            <div class="posts">
+            
+                {% include post-list.html filter="discgolf" %}
+            
+            </div>
+        </div>  
+    </div>  
+</section>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      {% if post.categories contains 'discgolf' %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-
-
-</div></div>
+  
+  

@@ -3,6 +3,9 @@
 }
  
 
+ 
+
+
 .block6 {
     @include media($medium) {
         @include span-columns(6);
@@ -18,6 +21,7 @@
 .block4 {
     @include media($medium) {
         @include span-columns(4);
+        @include omega(4n);
     }
 }
 

@@ -98,11 +98,30 @@ als de regel niet gebroken was
     </div>
 </section>
 
-<section class="s-landing">
+<section class="s-landing cards">
     <div class="container">
         <div class="grid">
     <h2 class="ls-title">Nieuws</h2>
     <p class="ls-text">Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. </p>
+            
+            
+        </div>
+        <div class="grid">
+                        {% assign count = 0 %}
+                        {% for post in site.posts %}
+                            {% if count < 3 %}
+                            {% if post.categories contains 'ultimate' %}
+            
+                            {% assign count = count | plus:1 %}
+                                           
+                                            {% include card-news.html param=post %}
+                                                        
+                            {% endif %}
+                            {% endif %}
+                        {% endfor %}
+     
+                    </div>
+        <div class="grid">
     <a class="arrow-link" href="nieuws/" class="landing-button">Nieuws...</a>
     <div class="ls-image"></div>
     </div>

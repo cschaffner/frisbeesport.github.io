@@ -4,32 +4,20 @@ categories: ultimate ultimate_community
 title: Spelersinformatie
 ---
 
-<section class="s-community">
-    <div class="container">
+
+<section class="s-nieuws">
+    <div class="container"> 
         <div class="grid">
-    
-            <p class="ls-text">Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem.  </p>
         
-            <ul class="post-list">
-    
-            {% for post in site.posts %}
-                
-                {% if post.categories contains 'ultimate_community' %}
-
-                    <li>
-                        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-                        <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-                    </li>
-
-                {% endif %}
-
-            {% endfor %}
-                
-            </ul>
-        </div>      
-    </div>      
+            <div class="posts">
+            
+                {% include post-list.html filter="ultimate_community" %}
+            
+            </div>
+        </div>  
+    </div>  
 </section>
+
 
 
 

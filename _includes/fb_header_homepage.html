@@ -39,11 +39,11 @@
  
                 <p>{{ page.excerpt }}</p>
 
-                <ul class="ghost-buttons">
+                <div class="ghost-buttons">
                     {% for button in page.ghost-buttons %}
-                        <li><a class="btn-ghost" href="{{ button.url }}" alt="{{ button.alt }}">{{ button.title }}</a></li>
+                        <div class="btn-ghost" ><a href="{{ button.url }}" alt="{{ button.alt }}">{{ button.title }}</a></div>
                     {% endfor %}
-                </ul>
+                </div>
             </div>
         </div>
     </div>{% include fb_section_bottom.html fill="#ffffff" %}

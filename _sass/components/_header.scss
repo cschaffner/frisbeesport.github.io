@@ -128,23 +128,36 @@
 }
 
 .hero-wash {
-height: 100%;
-width: 100%;
-background-color: #000;
-opacity: 0.5;
-z-index: 0;
-position: absolute;
-top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: 0;
+    position: absolute;
+    top: 0;
 }
 
 .ghost-buttons {
-    list-style: none;
     margin: 0;
     padding: 0;
 }
 
-a.btn-ghost,.btn-ghost {
-	display: inline-block;
+
+.btn-ghost {
+    display: block;
+    margin: 0 0 15px 0;
+    padding: 0.5625em 0em; 
+    @include media($medium) {
+        margin: 0 30px 0 0;
+        display: inline-block;
+    }
+}
+
+.btn-ghost:last-child {
+    margin: 0;
+}
+
+.btn-ghost a {
 	outline: none;
 	*zoom: 1;
 	text-align: center;
@@ -164,8 +177,9 @@ a.btn-ghost,.btn-ghost {
 	border-color: #ffffff;
     cursor: pointer;
 }
-.btn-ghost:hover {
-  background: #fff;
-  color: #000;
-  border-color: #fff;	
+
+.btn-ghost a:hover {
+    background: #fff;
+    color: #000;
+    border-color: #fff;	
 }

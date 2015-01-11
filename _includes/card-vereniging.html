@@ -1,0 +1,47 @@
+{% assign club = include.param %}
+      
+ <div class="vereniging card">
+                        
+                        
+                        
+                            {% if club[1].image %}
+                            <img class="card--image vereniging--image" src="{{ site.baseurl }}/images/clubs/{{ club[1].image }}">
+                        {% endif %}
+                        <div class="card--inside">
+                        <div class ="card--header">
+                            
+                            
+                        <h3 class="card--title"><a id="{{ club[0] }}" class="post-link" href="{{ club[1].web }}">{{ club[1].name }}</a></h3>
+                        {% if club[1].plaats %}</h4>
+                            <h4 class="card--subtitle">{{ club[1].plaats }}</h4>
+                        {% endif %}
+                        </div>
+            
+    
+            
+                          <p class="card--content">
+                            {% assign offers = club[1].offers | split:&nbsp; %}
+                             
+                            {% for offer in offers  %}
+                                {{ offer }}<br>
+                            {% endfor %}
+                         </p>   
+            
+                        <p class="card--sidecontent">
+                            
+                            {% if club[1].telefoon %}
+                                <i class="fa fa-mobile"></i> {{ club[1].telefoon }}<br>
+                            {% endif %}
+                            
+                            {% if club[1].email %}
+                                <i class="fa fa-envelope-o"></i> {{ club[1].email }}<br>
+                            {% endif %}
+                            
+                            {% if club[1].web %}
+                                <i class="fa fa-external-link"></i> {{ club[1].web }}<br>
+                            {% endif %}
+                        </p>
+                             
+                       
+                        </div>
+                    </div>

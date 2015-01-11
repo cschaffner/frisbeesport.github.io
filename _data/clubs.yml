@@ -199,10 +199,37 @@ vellesanspeedies:
     offers: ultimate-studenten
     
     
+randstad:
+    name: Disc Golf Vereniging Randstad
+    email: info@discgolfrandstad.nl
+    web: www.dgvr.nl
+    course: Roel Langerakpark, Rotterdam (18), Sloterpark, Amsterdam (18)
+    offers: discgolf
     
+bear:
+    name: Bear Disc Golf
+    plaats: Regio Wijchen, Nijmegen
+    email: beardiscgolf@gmail.com
+    web: www.facebook.com/beardiscgolf
+    course: Tijdelijke course op recreatiegebied de Berendonck, Wijchen
+    offers: discgolf
   
   
+leidscherijn:
+    name: Leidsche Rijn Disc Golf Club
+    plaats: Utrecht
+    email: leidscherijndiscgolfclub@gmail.nl
+    web: http://www.facebook.com/leidscherijndiscgolfclub
+    course: Park Oudegein in Nieuwegein (9)
+    offers: discgolf
 
-  
+redlightsdg:
+    name: Red Lights Disc Golf
+    plaats: Amsterdam
+    email: redlightsdiscgolf@upcmail.nl
+    telefoon: 06-54777860
+    course: Sloterpark (18)
+    offers: discgolf
+
   
   

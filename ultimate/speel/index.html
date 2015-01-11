@@ -48,7 +48,7 @@ De Cityleague is een lokale competitie speciaal gericht op spelers die kennis wi
             
 <div class="blocks">
             <div class="block block4">
-                  <div class="block__image" style="background-image: url('../images/sport_ultimate.jpg');">
+                  <div class="block__image" style="background-image: url('../../images/sport_ultimate.jpg');">
                    
                     </div>
                 <h3 class="block__title">Vereniging</h3>
@@ -58,8 +58,8 @@ Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In
                  
             </div>
 
-            <div class="block block4 c-sport">
-                <div class="block__image" style="background-image: url('../images/sport_discgolf.jpg');"></div>
+            <div class="block block4">
+                <div class="block__image" style="background-image: url('../../images/sport_discgolf.jpg');"></div>
                 <h3 class="block__title">Toernooien</h3>
                 <p class="block__text">
 Disc Golf is een individuele buitensport die veel precisie en nauwkeurigheid vereist. Je speelt een aantal holes waarbij je in zo min mogelijk worpen de frisbee in de polehole probeert te gooien.                    
@@ -67,8 +67,8 @@ Disc Golf is een individuele buitensport die veel precisie en nauwkeurigheid ver
 
             </div>
      
-            <div class="block block4 c-sport">
-                <div class="block__image" style="background-image: url('../images/sport_discgolf.jpg');"></div>
+            <div class="block block4">
+                <div class="block__image" style="background-image: url('../../images/sport_discgolf.jpg');"></div>
                 <h3 class="block__title">Cityleague</h3>
                 <p class="block__text">
 Disc Golf is een individuele buitensport die veel precisie en nauwkeurigheid vereist. Je speelt een aantal holes waarbij je in zo min mogelijk worpen de frisbee in de polehole probeert te gooien.                    
@@ -96,27 +96,23 @@ Disc Golf is een individuele buitensport die veel precisie en nauwkeurigheid ver
 
 
 
-<section class="s-verenigingen">
+<section class="s-verenigingen cards">
     <div class="container">
-        <div class="grid">
             <h2>Verenigingen</h2>
-            Verenigingen
+            <p>
+            
 Door het hele land zijn er verenigingen voor Ultimate. Je bent welkom om eens langs te komen op een training. Er zijn clubs in Almere, Arnhem, Amsterdam, Delft, Den Haag, Eindhoven, Enschede, Groningen, Haarlem, IJmuiden, Leiden, Leusden, Maastricht, Nijmegen, Rotterdam, Tilburg, Utrecht, Wageningen, Veenendaal en Zwolle. Zoek op de balk onder Ultimate voor contact-gegevens van de bestaande verenigingen.
-            <ul class="post-list">
+                </p>
+        <div class="grid">
+            
                 {% assign clubs = site.data.clubs %}
 
                 {% for club in clubs %}
-
-                    <li>
-                        <h3><a id="{{ club[0] }}" class="post-link" href="{{ club[1].web }}">{{ club[1].name }}</a></h3>
-
-                        {% if club[1].image %}
-                            <img src="{{ site.baseurl }}/images/clubs/{{ club[1].image }}">
-                        {% endif %}
-                    </li>
-
+                    {% if club[1].offers contains "ultimate" %}
+                        {% include card-vereniging.html param=club %}
+                    {% endif %}
                 {% endfor %}
-            </ul>
+            
 
         </div>
     </div>
